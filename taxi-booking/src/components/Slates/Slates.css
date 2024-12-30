@@ -81,6 +81,9 @@
 .slade:nth-child(2) .logo i{
     color: orange;
 }
+.slade:nth-child(2) .logos{
+    gap: 20px;
+}
 
 
 .slade:last-child{
