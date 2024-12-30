@@ -1,0 +1,101 @@
+.slates{
+    background-color: #f5f5f5a9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.slade{
+    display: grid;
+    justify-items: center;
+}
+
+.slade h2{
+    font-weight: 500;
+    margin: 2rem 0 1rem;
+}
+
+.slade p{
+    font-size: 15px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 2rem;
+    width: 100%;
+
+}
+
+.logos{
+    margin: 2rem 10px 0rem;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logos i{
+    font-size: 35px;
+
+}
+
+.slade .logo{
+    background-color: orange;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    border-radius: 10px;
+}
+
+.slade .logo i{
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+}
+
+.slade:first-child{
+    background-color: #333;
+    color: #fff;
+    border-radius: 15px;
+    padding: 2rem;
+    width: 93%;
+}
+
+.slade:nth-child(2){
+    background-color: orange;
+    width: 93%;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.slade:nth-child(2) p{
+    border-bottom: 1px solid #55555551;
+}
+
+.slade:nth-child(2) .logo{
+    background-color: #333;
+}
+
+.slade:nth-child(2) .logo i{
+    color: orange;
+}
+
+
+.slade:last-child{
+    background-color: #fff;
+    width: 93%;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-bottom: 4rem;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.087);
+}
+
+.slade:last-child p{
+    border-bottom: 1px solid #8888882b;
+}
+
+.slade:last-child .logos i{
+    color: orange;
+}

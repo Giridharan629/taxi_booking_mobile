@@ -1,0 +1,25 @@
+.more-container{
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.title{
+    color: orange;
+    padding: 2.5rem 0 1rem;
+}
+
+.more-container h1 span{
+    color: orange;
+}
+
+.more-container h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.dummy{
+    font-size: 13px;
+    color: #555;
+    padding: 1rem;
+}

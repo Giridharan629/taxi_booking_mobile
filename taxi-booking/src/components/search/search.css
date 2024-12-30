@@ -1,0 +1,72 @@
+.logo{
+    width: 150px;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 90%;
+    background-color: #fff;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%);
+    border-radius: 15px;
+}
+
+#check{
+    display: none;
+}
+
+
+
+.nav-box{
+    position: fixed;
+    z-index: 100;
+    background-color: #fff;
+    height: 100vh;
+    top: -40px;
+    padding: 2rem 2rem;
+    width: 90%;
+    left: -100%;
+    transition: 0.5s ease-in;
+    z-index: 1000;
+}
+
+#check:checked ~ .nav-box{
+    left: -5%;
+}
+
+.nav-box label{
+    font-size: 25px;margin-top: 5px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.img-in{
+    width: 120px;
+    margin: 3rem 0px;
+}
+
+.logo-in{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-btn p{
+    font-size: 13px;
+    margin: 2rem 0px;
+}
+
+.nav-btn p:hover{
+    color: orange;
+}
+
+.btn{
+    display: none;
+}
