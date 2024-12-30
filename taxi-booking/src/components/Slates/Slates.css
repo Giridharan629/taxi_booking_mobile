@@ -34,7 +34,7 @@
 }
 
 .logos i{
-    font-size: 35px;
+    font-size: 20px;
 
 }
 
@@ -101,4 +101,8 @@
 
 .slade:last-child .logos i{
     color: orange;
+}
+
+.logos span{
+    font-size: 13px;
 }
